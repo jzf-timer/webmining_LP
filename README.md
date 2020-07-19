@@ -59,10 +59,67 @@
             
 6.单页数据：[WebMining_final_newmedia_单页](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E5%8D%95%E9%A1%B5.xlsx)
 
-7 多页数据连接：[WebMining_final_newmedia_翻页](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E7%BF%BB%E9%A1%B5.xlsx)
+7 翻页数据连接：[WebMining_final_newmedia_翻页](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E7%BF%BB%E9%A1%B5.xlsx)
 
 8 [scrapy爬虫代码连接](https://github.com/jzf-timer/webmining_LP/blob/master/LiePing/spiders/LP.py)   
 
+9 用scrapy框架输出表格
 
+
+![avatar](/webmining_LP/输出文档.jpg)
+   
+   
+- 后续scrapy框架构筑时用的参数   
+ 
+        ```
+		'edu':      '//div[contains(@class,"job-info")]/p/span[@class="edu"]',  
+        
+        '经验':      '//div[contains(@class,"job-info")]/p/span[@class="edu"]/following-sibling::span',  
+        
+        '薪水':    '//div[contains(@class,"job-info")]/p/span[@class="text-warning"]',   
+        
+        '时间':    '//div[contains(@class,"job-info")]/p/time/@title',   
+        
+        '职称':    '//div[contains(@class,"job-info")]/h3/a',   
+        
+        '公司地点': '//div[contains(@class,"job-info")]/p/a',  
+        
+        '公司名称': '//div[contains(@class,"sojob-item-main")]//p[@class="company-name"]/a', 
+		```    
+  
+# ipynb py文档链接
+
+[request+xpath 构筑翻页数据和单页数据 ipynb链接](https://github.com/jzf-timer/webmining_LP/blob/master/%E5%A4%9A%E9%A1%B5%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96.ipynb)
+
+[scrapy框架所用的spider py文件](https://github.com/jzf-timer/webmining_LP/blob/master/LiePing/spiders/LP.py)
+
+## 数据连接    
+[单页数据](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E5%8D%95%E9%A1%B5.xlsx)
+
+[翻页数据连接](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E7%BF%BB%E9%A1%B5.xlsx)
+
+[scrapy所爬取的数据](https://github.com/jzf-timer/webmining_LP/blob/master/%E7%8C%8E%E8%81%98%E6%96%B0%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5.xls)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 心得总结及感谢
+
+
+&gt;参考文档:
+[初窥Scrapy](https://scrapy-chs.readthedocs.io/zh_CN/latest/intro/overview.html)  
+[scrapinghub部署教程](https://blog.csdn.net/zjkpy_5/article/details/86646204)   
+[《Learning Scrapy》（中文版）第6章 ](https://www.jianshu.com/p/441fa74d7aad)  
 
 
