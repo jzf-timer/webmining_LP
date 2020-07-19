@@ -66,7 +66,7 @@
 9 用scrapy框架输出表格
 
 
-![avatar](/webmining_LP/输出文档.jpg)
+![avatar](/webmining_LP/output.jpg)
    
    
 - 后续scrapy框架构筑时用的参数   
@@ -99,18 +99,6 @@
 [翻页数据连接](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E7%BF%BB%E9%A1%B5.xlsx)
 
 [scrapy所爬取的数据](https://github.com/jzf-timer/webmining_LP/blob/master/%E7%8C%8E%E8%81%98%E6%96%B0%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5.xls)  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
