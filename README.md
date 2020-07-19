@@ -66,7 +66,7 @@
 9 用scrapy框架输出表格
 
 
-![avatar](/webmining_LP/output.jpg)
+![输出文档代码](https://github.com/jzf-timer/webmining_LP/blob/master/output.jpg)
    
    
 - 后续scrapy框架构筑时用的参数   
