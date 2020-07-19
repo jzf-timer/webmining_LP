@@ -87,7 +87,7 @@
         '公司名称': '//div[contains(@class,"sojob-item-main")]//p[@class="company-name"]/a', 
 		```    
   
-# ipynb py文档链接
+## ipynb py文档链接
 
 [request+xpath 构筑翻页数据和单页数据 ipynb链接](https://github.com/jzf-timer/webmining_LP/blob/master/%E5%A4%9A%E9%A1%B5%E6%95%B0%E6%8D%AE%E7%88%AC%E5%8F%96.ipynb)
 
@@ -102,10 +102,17 @@
 
 
 
-# 心得总结及感谢
+## 心得总结及感谢
+本次课程中学习的内容，提高了本人资料获取的能力，不管是日后从事产品经理或产品运营等工作，都是一项极为重要的能力，该能力的提高可以让我在从事相关工作时，提高资料的收集效率以及全面程度。全面的资料有助于行业分析，助力职业生涯发展。
 
 
-&gt;参考文档:
+
+感谢在本次课程中悉心教导的徐智超、廖汉腾老师，两位老师在此次课程中尽心尽力，八点爬起来给我们上课，不胜感激，老师在背后所付出的我们都看在眼里！谢谢老师！
+感谢石恒同学借出GitHub账户得以用scrapinghub部署爬虫！
+
+
+
+## 参考文档:
 [初窥Scrapy](https://scrapy-chs.readthedocs.io/zh_CN/latest/intro/overview.html)  
 [scrapinghub部署教程](https://blog.csdn.net/zjkpy_5/article/details/86646204)   
 [《Learning Scrapy》（中文版）第6章 ](https://www.jianshu.com/p/441fa74d7aad)  
