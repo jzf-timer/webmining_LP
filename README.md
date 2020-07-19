@@ -54,16 +54,16 @@
 
 4. 用scrapy框架将上一步的各个职位招聘的详情页信息爬取形成excel表格  
 
-5.方法选择：初始 使用request模块+xpath 是为了可以爬取现有的新媒体运营职业相关信息 然后构建单页数据和多页数据模板 供后面的scrapy框架代码提供一定基础
+5. 方法选择：初始 使用request模块+xpath 是为了可以爬取现有的新媒体运营职业相关信息 然后构建单页数据和多页数据模板 供后面的scrapy框架代码提供一定基础
             后面选择scrapy框架 是为了可以更好地将老一线城市 北上广深和新一线城市中的代表城市重庆中新媒体运营人员的职业信息  
             
-6.单页数据：[WebMining_final_newmedia_单页](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E5%8D%95%E9%A1%B5.xlsx)
+6. 单页数据：[WebMining_final_newmedia_单页](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E5%8D%95%E9%A1%B5.xlsx)
 
-7 翻页数据连接：[WebMining_final_newmedia_翻页](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E7%BF%BB%E9%A1%B5.xlsx)
+7. 翻页数据连接：[WebMining_final_newmedia_翻页](https://github.com/jzf-timer/webmining_LP/blob/master/WebMining_final_newmedia_%E7%BF%BB%E9%A1%B5.xlsx)
 
-8 [scrapy爬虫代码连接](https://github.com/jzf-timer/webmining_LP/blob/master/LiePing/spiders/LP.py)   
+8. [scrapy爬虫代码连接](https://github.com/jzf-timer/webmining_LP/blob/master/LiePing/spiders/LP.py)   
 
-9 用scrapy框架输出表格
+9. 用scrapy框架输出表格
 
 
 ![输出文档代码](https://github.com/jzf-timer/webmining_LP/blob/master/output.jpg)
