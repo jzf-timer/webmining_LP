@@ -58,10 +58,9 @@
 5.方法选择：初始 使用request模块+xpath 是为了可以爬取现有的新媒体运营职业相关信息 然后构建单页数据和多页数据模板 供后面的scrapy框架代码提供一定基础
             后面选择scrapy框架 是为了可以更好地将老一线城市 北上广深和新一线城市中的代表城市重庆中新媒体运营人员的职业信息  
             
-6.单页数据：
-[单页数据连接：](https://github.com/GREGJASON/webmining_liepin/blob/master/20%E6%98%A5_Web%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98_final_%E6%96%B0%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5_%E5%8D%95%E9%A1%B5.xlsx  )
+6.单页数据：单页数据连接
 
 7 多页数据连接：
 
-8 scrapy爬虫代码连接：
-然后用scrapy框架将上一步的各个职位招聘的详情页信息爬取形成excel表格
+8 scrapy爬虫代码连接：   
+
